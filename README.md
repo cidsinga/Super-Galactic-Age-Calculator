@@ -1,7 +1,8 @@
-# Galactice Age Calculator
+# Galactic Age Calculator
 
 
-
+## Author
+Casey Idsinga
 
 ## Installation
 Run on any web browswer.
@@ -44,4 +45,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT] Copyright (c) Casey Idsinga 2019
