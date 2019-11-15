@@ -27,7 +27,13 @@ Enter your age to calculate your age on other planets and life expectancy.
     Input - 10
     Output - 118.6
 
-  Spec - 
+  Spec - determine difference of users age compared to 100 earth years as a stand in for life expectancy and return how many years they have left to live
+    Input - 90 earth years
+    Output - 10 earth years
+
+  Spec - if users current age exceeds their life expectancy return the number of years they've exceeded it by
+    Input - 105
+    Output - 5
 
 
 
