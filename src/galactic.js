@@ -5,19 +5,19 @@ export function earthToMercury(input) {
 export class GalacticBeing {
   constructor (age) {
     this.age = age;
-
+    this.mars = 0;
   }
   mercAge() {
-    this.age * .24;
+    return this.age * .24;
   }
   venusAge() {
-    this.age * .62;
+    return this.age * .62;
   }
   marsAge() {
-    this.age * 1.88;
+    return this.age * 1.88;
   }
   jupiterAge() {
-    this.age * 11.86;
+    return this.age * 11.86;
   }
 
 };
