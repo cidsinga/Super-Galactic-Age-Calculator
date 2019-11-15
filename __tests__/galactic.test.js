@@ -1,4 +1,4 @@
-import { earthToMurcury } from './../src/galactic.js';
+import { earthToMurcury, murcuryAge } from './../src/galactic.js';
 
 describe ('earthToMurcury', ()=> {
   test('should return users age converted into Murcury years', () => {
@@ -7,6 +7,16 @@ describe ('earthToMurcury', ()=> {
   })
 });
 
+describe ('murcuryAge', () => {
+  test('should return users age converted into Murcury years', () => {
+    const mercAge = murcuryAge(10);
+    expect(mercAge).toEqual(3);
+  }
+  )
+
+
+
+})
 
 
 

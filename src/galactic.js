@@ -5,8 +5,8 @@ export function earthToMurcury(input) {
 class GalacticBeing {
   constructor (age) {
     this.age = age;
-
   }
+
 }
 
 let galactiBeing1 = new GalacticBeing(5);
