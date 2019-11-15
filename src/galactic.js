@@ -1,3 +1,3 @@
 export function earthToMurcury(input) {
-  return input*.24;
+    return input * .24;
 }

@@ -2,8 +2,8 @@ import { earthToMurcury } from './../src/galactic.js';
 
 describe ('earthToMurcury', ()=> {
   test('should return users age converted into Murcury years', () => {
-    const murcuryOutput = input(10);
-    expect(murcuryOutput).toEqual(3) //3 is for "red" result
+    const murcuryOutput = earthToMurcury(10);
+    expect(murcuryOutput).toEqual(3); //3 is for "red" result
   })
 });
 
