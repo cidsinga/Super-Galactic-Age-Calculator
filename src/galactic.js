@@ -1,17 +1,17 @@
-export function earthToMurcury(input) {
+export function earthToMercury(input) {
     return input * .24;
 }
 
-class GalacticBeing {
+export class GalacticBeing {
   constructor (age) {
     this.age = age;
+
   }
   mercAge() {
     this.age * .24;
-    return this;
+    
   }
 
 };
 
 let galactiBeing1 = new GalacticBeing(5);
-galactiBeing1.mercAge();

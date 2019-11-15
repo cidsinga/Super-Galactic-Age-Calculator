@@ -1,20 +1,39 @@
-import { earthToMurcury, murcuryAge } from './../src/galactic.js';
+import { earthToMurcury, mercAge } from './../src/galactic.js';
 
-describe ('earthToMurcury', ()=> {
+// describe ('earthToMercury', ()=> {
+//   test('should return users age converted into Murcury years', () => {
+//     const mercuryOutput = earthToMercury(10);
+//     expect(mercuryOutput).toEqual(2.4); //3 is for "red" result
+//   })
+// });
+
+describe ('mercAge', () => {
   test('should return users age converted into Murcury years', () => {
-    const murcuryOutput = earthToMurcury(10);
-    expect(murcuryOutput).toEqual(2.4); //3 is for "red" result
+    const newAge = mercAge(10);
+    expect(newAge).toEqual(2.4);
+  })
+});
+describe ('venusAge', () => {
+  test('should return users age converted into Venus years', () => {
+    const newAge = venusAge(10);
+    expect(newAge).toEqual(6.2);
+  })
+});
+
+describe ('marsAge', () => {
+  test('should return users age converted into Mars years', () => {
+    const newAge = marsAge(10);
+    expect(newAge).toEqual(18.8);
+  })
+});
+describe ('jupiterAge', () => {
+  test('should return users age converted into Jupiter years', () => {
+    const newAge = jupiterAge(10);
+    expect(newAge).toEqual(2.4);
   })
 });
 
 
-
-// describe ('murcuryAge', () => {
-//   test('should return users age converted into Murcury years', () => {
-//     const mercAge = murcuryAge(10);
-//     expect(mercAge).toEqual(3);
-//   })
-// });
 
 
 
