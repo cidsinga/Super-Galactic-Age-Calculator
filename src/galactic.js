@@ -3,15 +3,17 @@ export function earthToMercury(input) {
 
 };
 
+function mercAge(age) {
+  return this.age * .24;
 
 // work on classes below -----------------------
-export class GalacticBeing {
+class GalacticBeing {
   constructor (age, le) {
     this.age = age;
     this.lifeExpectancy = le;
 
   }
-  mercAge(age) {
+  export mercAge(age) {
     return this.age * .24;
   }
   venusAge() {
@@ -26,5 +28,5 @@ export class GalacticBeing {
 
 };
 
-let galactiBeing1 = new GalacticBeing;
-galactiBeing1.mercAge();
+let galacticBeing1 = new GalacticBeing(10);
+galacticBeing1.mercAge();
