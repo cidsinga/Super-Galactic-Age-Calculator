@@ -1,4 +1,11 @@
+//  imprt function
 
+describe ('toBeNamed', ()=> {
+  test('should return users age converted into Murcury years', () => {
+    const murcuryOutput = input(10);
+    expect(murcuryOutput).toEqual(3) //3 is for "red" result
+  })
+})
 
 
 
