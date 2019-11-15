@@ -9,7 +9,15 @@ export class GalacticBeing {
   }
   mercAge() {
     this.age * .24;
-    
+  }
+  venusAge() {
+    this.age * .62;
+  }
+  marsAge() {
+    this.age * 1.88;
+  }
+  jupiterAge() {
+    this.age * 11.86;
   }
 
 };

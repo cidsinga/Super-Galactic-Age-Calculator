@@ -29,7 +29,7 @@ describe ('marsAge', () => {
 describe ('jupiterAge', () => {
   test('should return users age converted into Jupiter years', () => {
     const newAge = jupiterAge(10);
-    expect(newAge).toEqual(2.4);
+    expect(newAge).toEqual(118.6);
   })
 });
 
