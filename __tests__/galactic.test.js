@@ -8,18 +8,23 @@ import { earthToMercury, GalacticBeing  } from './../src/galactic.js';
 // });
 
 
-describe('spock',  () => {
+describe(GalacticBeing,  () => {
   let galacticBeing;
 
   beforeEach(function() {
-    galacticBeing = new GalacticBeing(10, 'spock');
+    galacticBeing = new GalacticBeing(10);
     galacticBeing.mercAge();
 
 
   })
-  test('should return users age converted into Murcury years', () => {
-    expect(galacticBeing.age).toEqual(10)
-
+  test('should return users age as entered', () => {
+    expect(galacticBeing.age).toEqual(10);
+    // const newAge = mercAge(10);
+    // expect(newAge).toEqual(2.4);
+  })
+  test('should return users age in mercury years', () => {
+    let newAge = mercAge(10);
+    expect(newAge).toEqual(2.4);
   })
 
 });

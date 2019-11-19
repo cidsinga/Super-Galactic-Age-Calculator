@@ -12,9 +12,11 @@ export class GalacticBeing {
   constructor (age, name) {
     this.age = age;
     this.name = name;
+    this.mercuryAge = 0;
   }
   mercAge() {
-    return this.age * .24;
+    let mercuryAge = this.age * .24;
+    return mercuryAge;
   }
   venusAge() {
     return this.age * .62;
@@ -28,5 +30,5 @@ export class GalacticBeing {
 
 };
 
-let galacticBeing1 = new GalacticBeing(10);
-galacticBeing1.mercAge()
+// let galacticBeing = new GalacticBeing(10);
+// galacticBeing.mercAge()
