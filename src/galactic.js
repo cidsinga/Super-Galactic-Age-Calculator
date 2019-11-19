@@ -9,23 +9,24 @@ export function earthToMercury(input) {
 
 // work on classes below -----------------------
 export class GalacticBeing {
-  constructor (age) {
+  constructor (age, name) {
     this.age = age;
+    this.name = name;
   }
   mercAge() {
     return this.age * .24;
   }
-  // venusAge() {
-  //   return this.age * .62;
-  // }
-  // marsAge() {
-  //   return this.age * 1.88;
-  // }
-  // jupiterAge() {
-  //   return this.age * 11.86;
-  // }
+  venusAge() {
+    return this.age * .62;
+  }
+  marsAge() {
+    return this.age * 1.88;
+  }
+  jupiterAge() {
+    return this.age * 11.86;
+  }
 
 };
 
 let galacticBeing1 = new GalacticBeing(10);
-galacticBeing1.mercAge();
+galacticBeing1.mercAge()
