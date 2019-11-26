@@ -27,6 +27,11 @@ export class GalacticBeing {
   jupiterAge() {
     return this.age * 11.86;
   }
+  // mercExpectancy() {
+  //   mercAge()
+  }
+
+  })
 
 };
 
