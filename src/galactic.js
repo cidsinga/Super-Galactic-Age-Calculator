@@ -13,7 +13,7 @@ export class GalacticBeing {
     this.age = age;
     this.name = name;
     this.mercuryAge = 0;
-    this.lifeExpectancy = 100
+    this.lifeExpectancy = lifeExpectancy
   }
   mercAge() {
     return this.age * .24;
@@ -39,6 +39,12 @@ export class GalacticBeing {
   jupiterExpectancy() {
     return this.lifeExpectancy * 11.86 - this.jupiterAge();
   }
+  earthExpectancy() {
+    if (this.lifeExpectancy > 70) {
+      return this.lifeExpectancy - 70;
+    }
+  }
+
 
 };
 
