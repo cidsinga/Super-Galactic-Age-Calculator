@@ -41,6 +41,14 @@ describe(GalacticBeing,  () => {
     let lifeExpectancy = galacticBeing.venusExpectancy(10);
     expect(lifeExpectancy).toEqual(55.9);
   })
+  test('should return users life expectancy in Mars years', () => {
+    let lifeExpectancy = galacticBeing.marsExpectancy(10);
+    expect(lifeExpectancy).toEqual(21.6);
+  })
+  test('should return users life expectancy in Jupiter years', () => {
+    let lifeExpectancy = galacticBeing.jupiterExpectancy(10);
+    expect(lifeExpectancy).toEqual(21.6);
+  })
 
 
 

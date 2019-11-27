@@ -30,6 +30,15 @@ export class GalacticBeing {
   mercExpectancy() {
     return this.lifeExpectancy * .24 - this.mercAge();
   }
+  venusExpectancy() {
+    return this.lifeExpectancy * .62 - this.venusAge();
+  }
+  marsExpectancy() {
+    return this.lifeExpectancy * 1.88 - this.marsAge();
+  }
+  jupiterExpectancy() {
+    return this.lifeExpectancy * 11.86 - this.jupiterAge();
+  }
 
 };
 
