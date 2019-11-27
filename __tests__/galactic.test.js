@@ -12,7 +12,7 @@ describe(GalacticBeing,  () => {
   let galacticBeing;
 
   beforeEach(function() {
-    galacticBeing = new GalacticBeing(10);
+    galacticBeing = new GalacticBeing(10,100);
     // galacticBeing.mercAge();
   })
   test('should return users age in mercury years', () => {
@@ -31,7 +31,15 @@ describe(GalacticBeing,  () => {
   test('should return users age converted into Jupiter years', () => {
     let newAge = galacticBeing.jupiterAge(10);
     expect(newAge).toEqual(118.6);
+  })
 
+  test('should return users life expectancy in Mercury years', () => {
+    let lifeExpectancy = galacticBeing.mercExpectancy(10);
+    expect(lifeExpectancy).toEqual(21.6);
+  })
+  test('should return users life expectancy in Venus years', () => {
+    let lifeExpectancy = galacticBeing.venusExpectancy(10);
+    expect(lifeExpectancy).toEqual(55.9);
   })
 
 
