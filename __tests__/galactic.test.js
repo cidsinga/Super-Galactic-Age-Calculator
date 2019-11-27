@@ -1,13 +1,5 @@
 import { earthToMercury, GalacticBeing  } from './../src/galactic.js';
 
-// describe ('earthToMercury', ()=> {
-//   test('should return users age converted into Murcury years', () => {
-//     const mercuryOutput = earthToMercury(10);
-//     expect(mercuryOutput).toEqual(2.4); //3 is for "red" result
-//   })
-// });
-
-
 describe(GalacticBeing,  () => {
   let galacticBeing;
 
@@ -51,13 +43,7 @@ describe(GalacticBeing,  () => {
   })
   test('should return amount user has lived over Earths life expectancy', () => {
     let earthExpectancy = galacticBeing.earthExpectancy();
-    expect(earthExpectancy).toEqual(31)
+    expect(earthExpectancy).toEqual(30)
   })
-
-
-
+  
 });
-
-// describe ('jupiterAge', () => {
-//
-// });

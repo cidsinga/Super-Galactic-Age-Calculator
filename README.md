@@ -5,26 +5,26 @@
 Casey Idsinga
 
 ## Installation
-Run on any web browswer.
+Run on any web browser.
 
 
 ## Usage
 Enter your age to calculate your age on other planets and life expectancy.
 
 ## Specs
-  Spec - convert users age from Earth solar years to their age in Murcury years
+  Spec - convert users age from Earth solar years to their age in Mercury years. A Mercury year is .24 Earth years.
     Input - 10
     Output - 2.4
 
-  Spec - convert users age from Earth solar years to their age in Venus years
+  Spec - convert users age from Earth solar years to their age in Venus years.  A Venus year is .62 Earth years.
     Input - 10
     Output - 6.2
 
-  Spec - convert users age from Earth solar years to their age in Mars years
+  Spec - convert users age from Earth solar years to their age in Mars years. A Mars year is 1.88 Earth years.
     Input - 10
     Output - 18.8
 
-  Spec - convert users age from Earth solar years to their age in Jupiter years
+  Spec - convert users age from Earth solar years to their age in Jupiter years.  A Jupiter year is 11.86 Earth years.
     Input - 10
     Output - 118.6
 
